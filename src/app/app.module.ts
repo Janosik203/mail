@@ -6,6 +6,7 @@ import { MainComponent } from './main/main.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { InboxComponent } from './inbox/inbox.component';
 import { EmailDetailsComponent } from './email-details/email-details.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -13,10 +14,12 @@ import { EmailDetailsComponent } from './email-details/email-details.component';
     MainComponent,
     NavigationComponent,
     InboxComponent,
-    EmailDetailsComponent
+    EmailDetailsComponent,
+    FontAwesomeModule
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
