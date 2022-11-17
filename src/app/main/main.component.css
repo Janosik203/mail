@@ -1,0 +1,14 @@
+.contaner{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.navigation{
+  width: 15%;
+}
+.inbox{
+width: 38.5%;
+}
+.emailDetails{
+width: 48.5%;
+}

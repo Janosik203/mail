@@ -1,0 +1,47 @@
+.nav{
+  display: flex;
+  flex-direction: column;
+}
+.cos{
+  display: flex;
+  flex-direction: column;
+}
+.nav__logo{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-self: center;
+}
+.nav_guzik{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 70%;
+  border-radius: 8px;
+  height: 40px;
+  background-color: #4674db;
+  color: #f2feff;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.nav-option{
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  align-self: center;
+
+}
+.nav-option__item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.nav__brake{
+  border-top: 1px solid black;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
